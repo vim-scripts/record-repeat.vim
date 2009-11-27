@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2873
+
+Automagically record and repeat a sequence of commands using the [count]@(<command>) mapping.
+
+For example: 5@(jj) will move the cursor down 10 lines. This is similar to qajjq4@a but hopefully easier to type and understand.
