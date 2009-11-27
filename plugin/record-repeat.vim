@@ -12,7 +12,7 @@ function! RecordRepeatStart(...) range
 	let s:old_reg = getreg('r')
 	let s:old_map = maparg(')', 'n')
 	nunmap @(
-	nnoremap <silent> q :<CR>
+	nnoremap q <nop>
 	nnoremap <silent> ) :call RecordRepeatEnd()<CR>
 
 	normal! qr
